@@ -1,4 +1,4 @@
-# Width vs Y-Level WebApp
+# WidthSense WebApp
 
 This Flask-based web application allows users to upload a 2D profile dataset (`x`, `y` coordinates in Excel format) and calculates the **horizontal width** of the profile at evenly spaced **Y-levels** using linear interpolation. It outputs a downloadable `.xlsx` file containing width values for each Y-level.
 
@@ -62,13 +62,13 @@ The app will be available at [http://127.0.0.1:5000](http://127.0.0.1:5000)
 
 ## Deployment
 
-The deployment is configured for **Vercel**. You can deploy it easily by following the instructions on the Vercel platform.
+The deployment is configured for **PythonAnywhere**. You can deploy it easily by following the instructions on the Pythonanywhere platform.
 
-#### Deployed URL: [https://widthsense.vercel.app](https://widthsense.vercel.app)
+#### Deployed URL: [https://widthsense.pythonanywhere.com](https://widthsense.pythonanywhere.com)
 
 ---
 
-# Width Calculation Tool GUI
+# Widthsense GUI
 
 A simple yet powerful Python desktop application that calculates the **horizontal widths of a 2D curve** at multiple vertical (Y) levels from an Excel dataset. Designed with a user-friendly GUI using Tkinter, this tool is ideal for engineers, scientists, and researchers working with geometric profiles, sensor data, or topographic curves.
 
