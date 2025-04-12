@@ -121,6 +121,12 @@ pyinstaller --onefile --windowed --add-data "python38.dll;." main.py
 
 This will create a standalone executable in the `dist` folder. You can run this executable without needing Python installed on the target machine.
 
+## Download Executable
+
+Go to [Github Releases](https://github.com/Saravanakumar2003/WidthSense/releases) and download the latest version of the executable file. 
+
+Windows may flag the executable as unrecognized. You can ignore this warning and run the file. The executable is safe to use.
+
 ## 🖼️ Screenshots
 
 > **Note:** The GUI is designed to be simple and user-friendly. Below are some screenshots of the interface.
@@ -142,8 +148,8 @@ Widthsense/
 ├── uploads/              # Uploaded Excel files
 ├── outputs/              # Output Excel files
 ├── requirements.txt      # Dependencies
-├── static/               # Static files (CSS, JS)
-│   └── style.css         # CSS for styling
+├── static/               # Static files
+│   ├── assets/           # Assets folder
 ├── vercel.json          # Vercel deployment config
 └── README.md             # This file
 ```
